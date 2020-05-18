@@ -12,6 +12,5 @@ script:
   - echo "Reached Script Section"
   - gcc   	Linkfile_multifile/demofile2.c Linkfile_multifile/file1.c  	Linkfile_multifile/file2.c -o output
   - ./output
-  //- echo "Reached cunit"
-  //-gcc -I CUnit/Sources/Framework/*.c CUnit/Sources/Basic/Basic.c testmath.c Run_cunit.c
+
   
