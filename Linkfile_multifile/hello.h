@@ -9,4 +9,5 @@
 
 int add ();
 int subtract ();
+int max ();
 #endif
