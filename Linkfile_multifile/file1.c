@@ -13,7 +13,7 @@ int max (int a, int b){
 }
 
 int maxarray (int* a, int b){
-	int tempval = a[0];
+	int temp = a[0];
 	for (int i = 0; i<b; i++){
 	if (temp<a[i])	temp = a[i];
 	return temp;
