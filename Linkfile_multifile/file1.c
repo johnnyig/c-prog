@@ -60,3 +60,13 @@ int array_ngtvs (int* a, int b){
 	}
 	return temp;
 }
+
+int reverse_array_order (int* a, int b){
+	int temp,i;
+	for (i = 0; i<b/2; i++){
+		temp = a[i];
+		a[i] = a[b-1-i];
+		a[b-1-i] = temp;
+	}
+	return 0;
+}

@@ -16,5 +16,6 @@ int get_array_sum ();
 int array_pstvs ();
 int array_ngtvs ();
 double get_array_avg ();
+int reverse_array_order();
 	
 #endif
