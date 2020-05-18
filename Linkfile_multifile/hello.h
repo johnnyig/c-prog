@@ -10,4 +10,5 @@
 int add ();
 int subtract ();
 int max ();
+int maxarray ();
 #endif
