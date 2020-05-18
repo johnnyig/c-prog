@@ -13,6 +13,8 @@ int max ();
 int get_array_max ();
 int get_array_min ();
 int get_array_sum ();
+int array_pstvs ();
+int array_ngtvs ();
 double get_array_avg ();
 	
 #endif
