@@ -37,7 +37,7 @@ double get_array_avg (int* a, int b){
 	for (int i = 0; i<b; i++){
 	temp+=a[i];
 	}
-	return temp/b;
+	return (double)temp/b;
 }
 
 int array_pstvs (int* a, int b){
