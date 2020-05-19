@@ -1,9 +1,9 @@
 #include <CUnit/CUnit.h>
 #include <CUnit/Basic.h>
 
-int arr_elemnts = 5;
-int tst_arr1[arr_elemnts] = {1,8,10,7,-5};
-int tst_arr2[arr_elemnts] = {1,0,0,0,-1};
+//int arr_elemnts = 5;
+int tst_arr1[5] = {1,8,10,7,-5};
+int tst_arr2[5] = {1,0,0,0,-1};
 
 
 int get_array_max (int* a, int b){
