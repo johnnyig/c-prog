@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "Common.h"
+#include "Array_math.h"
 
 
 int get_array_max (int* a, int b){
