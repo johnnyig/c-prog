@@ -10,11 +10,11 @@ install:
 
 script:
   - echo "Reached Script Section"
-  - gcc   	Linkfile_multifile/demofile2.c Linkfile_multifile/file1.c  	Linkfile_multifile/file2.c -o output
+  - gcc   	Array_math.c degree.c Fib_Def.c  Main.c -o output
   - ./output
   - size output
   - echo "Reached Script Section - cunit_democode"
-  - gcc   	test_cunit.c -o cunit_democode -lcunit
-  - ./cunit_democode
-  - size cunit_democode
+  - gcc   	Array_math_cunit.c -o Array_math_cunit_JG -lcunit
+  - ./Array_math_cunit_JG
+  - size Array_math_cunit_JG
   

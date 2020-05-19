@@ -7,9 +7,6 @@
 #include <stdlib.h>
 
 
-int add ();
-int subtract ();
-int max ();
 int get_array_max ();
 int get_array_min ();
 int get_array_sum ();

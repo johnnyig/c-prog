@@ -1,16 +1,6 @@
-#include <stdio.h>
-#include "hello.h"
+#include<stdio.h>
+#include "Common.h"
 
-int add (int a,int b)
-{
-
-  return a+b;
-}
-
-int max (int a, int b){
-	if (a>=b)	return a;
-	else return b;
-}
 
 int get_array_max (int* a, int b){
 	int temp = a[0];
